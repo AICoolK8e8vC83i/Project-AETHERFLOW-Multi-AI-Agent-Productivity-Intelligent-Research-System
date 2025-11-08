@@ -1,3 +1,9 @@
-In Progress coding.... with a full on electron wrapper app
+Updated Architecture (Currently Working):
+-AWS Bedrock Claude Sonnet and Haiku 4.5, Kimi K2 Thinking, DeepSeek R1 1.5B meta orchestrator,  code switcher, discourse analyzer agent, explainbiiltity bridge agent, goal memory agent, memory curator agent (SQlite), and RLHF
 
-LangGraph orchestration, MediaPipe vision for wellness and health, NLP parser, productivity analytics, Local RAG memory, learning from personal data, Analytics feedback loop, predictive modeling, 24/7 digital twin
+-Also Completed STT (Whisper)
+
+In Progress:
+-Multimodal (Got Intern VL 3.5 4B (surprinsingly fast) working on ollama) --> Vision
+-Streamlit Frontend with permanent memory (SQlite stored in a local folder so everytime it's run)
+-Perfecting Proactive logic and RLHF (RLHF just gives scores and is a critic currently)
