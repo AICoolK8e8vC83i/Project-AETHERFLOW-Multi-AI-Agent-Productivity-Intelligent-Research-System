@@ -2,8 +2,12 @@ Updated Architecture (Currently Working):
 -AWS Bedrock Claude Sonnet and Haiku 4.5, Kimi K2 Thinking, DeepSeek R1 1.5B meta orchestrator,  code switcher, discourse analyzer agent, explainbiiltity bridge agent, goal memory agent, memory curator agent (SQlite), and RLHF
 
 -Also Completed STT (Whisper)
-
-In Progress:
 -Multimodal (Got Intern VL 3.5 4B (surprinsingly fast) working on ollama) --> Vision
 -Streamlit Frontend with permanent memory (SQlite stored in a local folder so everytime it's run)
--Perfecting Proactive logic and RLHF (RLHF just gives scores and is a critic currently)
+-Perfecting Proactive logic (x2) and RLHF (RLHF just gives scores and is a critic currently)
+-RLHF works for providing top 2 by scores (overall rating, speech act alignment, syntactic clarity, cultural appropriatness, pragmatic coherence)
+
+IN PROGRESS:
+-Analytics Perfection
+-Ablation Study (Claude Sonnet 4.5, Haiku 4.5, Kimi K2 Thinking SOTA manual scoring of intelligent multilingual understanding and nuance)
+-Demo (Show Image (Multimodal) test + text test)
